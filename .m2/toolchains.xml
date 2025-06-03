@@ -1,0 +1,16 @@
+<!-- /qompassai/maven/.m2/toolchains.xml -->
+<!-- ------------------------------------------- -->
+<!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
+
+<toolchains>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>23.0.2</version>
+      <vendor>temurin</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>{{USER_HOME}}/.m2/jdks/jdk-23.0.2+7</jdkHome>
+    </configuration>
+  </toolchain>
+</toolchains>
